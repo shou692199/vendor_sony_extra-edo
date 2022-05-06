@@ -75,3 +75,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DOLBY)/proprietary/vendor/lib64/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_ddpdec.so \
     $(LOCAL_DOLBY)/proprietary/vendor/lib64/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrightdolby.so \
     $(LOCAL_DOLBY)/proprietary/vendor/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbdsservice.so
+
+$(call inherit-product, $(LOCAL_DOLBY)/custom/config.mk)
