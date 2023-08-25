@@ -30,8 +30,10 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/extra/framework/system_ext/,$(TARGET_COPY_OUT_SYSTEM_EXT)/) \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/extra/framework/product/,$(TARGET_COPY_OUT_PRODUCT)/)
 
+ifeq ($(TARGET_INCLUDE_SONY_CAMERA), true)
 # Sony Camera
     $(call inherit-product, vendor/sony/extra-sagami/extra/camera/camera.mk)
+endif
 
 # Sony Apps
     $(call inherit-product, vendor/sony/extra-sagami/extra/apps/apps.mk)
