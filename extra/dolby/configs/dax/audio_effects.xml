@@ -185,24 +185,16 @@
             <apply effect="dlb_music_listener"/>
         </stream>
         <stream type="ring">
-            <!-- Disable volume listener
             <apply effect="ring_helper"/>
-            -->
         </stream>
         <stream type="alarm">
-            <!-- Disable volume listener
             <apply effect="alarm_helper"/>
-            -->
         </stream>
         <stream type="voice_call">
-            <!-- Disable volume listener
             <apply effect="voice_helper"/>
-            -->
         </stream>
         <stream type="notification">
-            <!-- Disable volume listener
             <apply effect="notification_helper"/>
-            -->
         </stream>
     </postprocess>
     <preprocess>
