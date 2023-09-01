@@ -27,3 +27,7 @@ PRODUCT_PACKAGES += \
     ThreeSixtyRASettings \
     ThreeSixtyRASystem \
     ThreeSixtyRAUpmixLite
+
+# Force disable 360RA's Dolby effect suppressing
+PRODUCT_ODM_PROPERTIES += \
+vendor.sony_spatializer.suppress.dolby=false
