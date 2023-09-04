@@ -35,7 +35,7 @@ AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.dolby.dax.version=DAX3_3.7.0.8_r1 \
     vendor.audio.dolby.ds2.enabled=true \
-    vendor.audio.dolby.ds2.hardbypass=true
+    vendor.audio.dolby.ds2.hardbypass=false
 
 # Packages
 PRODUCT_PACKAGES += \
