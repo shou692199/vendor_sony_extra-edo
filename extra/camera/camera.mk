@@ -16,7 +16,7 @@
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/sony/extra-sagami/extra/camera
+    $(EXTRA_PATH)/extra/camera
 
 # Camera
 PRODUCT_PACKAGES += \

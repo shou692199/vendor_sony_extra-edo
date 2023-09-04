@@ -16,7 +16,7 @@
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
-   vendor/sony/extra-sagami/extra/apps
+   $(EXTRA_PATH)/extra/apps
 
 # Sony Apps
 PRODUCT_PACKAGES += \
