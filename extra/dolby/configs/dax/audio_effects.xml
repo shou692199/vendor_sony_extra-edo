@@ -182,7 +182,9 @@
             <!-- Disable volume listener
             <apply effect="music_helper"/>
             -->
+            <!-- 
             <apply effect="dlb_music_listener"/>
+            -->
         </stream>
         <stream type="ring">
             <apply effect="ring_helper"/>
