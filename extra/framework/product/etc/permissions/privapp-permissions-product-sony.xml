@@ -17,4 +17,9 @@
     <privapp-permissions package="jp.co.sony.mc.usbextoutaudio">
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
     </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sony.mc.gamingfanservice">
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
 </permissions>

@@ -25,10 +25,29 @@ PRODUCT_PACKAGES += \
     SomcDualshockManager \
     SomcMediaExtensionProvider \
     ExternalMonitor \
-    UsbExtOutAudio
+    UsbExtOutAudio \
+    SmartCharger \
+    XperiaLauncher \
+    FreeformController \
+    FreeformControllerNotificationUi
 
 ifeq ($(TARGET_INCLUDE_SONY_MUSIC), true)
 # Sony Music
 PRODUCT_PACKAGES += \
     SemcMusic
+endif
+
+ifeq ($(TARGET_INCLUDE_GAME_ENHANCER), true)
+# Xperia Stream
+PRODUCT_PACKAGES += \
+    GamingAccessorySettings \
+    GamingFanService \
+    ThermalFanService
+
+# Game Enhancer
+PRODUCT_PACKAGES += \
+    SomcGameEnhancer \
+    SomcGameEnhancerAPI \
+    SomcGameEnhancerMonitor \
+    SomcGameEnhancerBrowser
 endif

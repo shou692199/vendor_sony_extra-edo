@@ -20,7 +20,6 @@ android_app_import {
 	owner: "sony",
 	apk: "SonyMusic/SonyMusic.apk",
 	presigned: true,
-        overrides: ["Eleven"],
 	dex_preopt: {
 		enabled: false,
 	},
@@ -98,4 +97,136 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
+}
+
+android_app_import {
+	name: "SmartCharger",
+	owner: "sony",
+	apk: "SmartCharger/SmartCharger.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "XperiaLauncher",
+	owner: "sony",
+	apk: "XperiaLauncher/XperiaLauncher.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "FreeformController",
+	owner: "sony",
+	apk: "FreeformController/FreeformController.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "FreeformControllerNotificationUi",
+	owner: "sony",
+	apk: "FreeformControllerNotificationUi/FreeformControllerNotificationUi.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "GamingAccessorySettings",
+	owner: "sony",
+	apk: "GamingAccessorySettings/GamingAccessorySettings.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "GamingFanService",
+	owner: "sony",
+	apk: "GamingFanService/GamingFanService.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "ThermalFanService",
+	owner: "sony",
+	apk: "ThermalFanService/ThermalFanService.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "SomcGameEnhancer",
+	owner: "sony",
+	apk: "SomcGameEnhancer/SomcGameEnhancer.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SomcGameEnhancerAPI",
+	owner: "sony",
+	apk: "SomcGameEnhancerAPI/SomcGameEnhancerAPI.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SomcGameEnhancerMonitor",
+	owner: "sony",
+	apk: "SomcGameEnhancerMonitor/SomcGameEnhancerMonitor.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SomcGameEnhancerBrowser",
+	owner: "sony",
+	apk: "SomcGameEnhancerBrowser/SomcGameEnhancerBrowser.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
 }
