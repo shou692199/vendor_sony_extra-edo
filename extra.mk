@@ -20,12 +20,17 @@ else
 EXTRA_PATH := vendor/sony/extra
 endif
 
+# Flags
+TARGET_INCLUDE_SONY_CAMERA ?= true
+TARGET_INCLUDE_SONY_MUSIC ?= true
+TARGET_INCLUDE_GAME_ENHANCER ?= true
+
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
     $(EXTRA_PATH)
 
 # Dolby Sound
-    $(call inherit-product, $(EXTRA_PATH)/extra/dolby/dolby.mk)
+$(call inherit-product, $(EXTRA_PATH)/extra/dolby/dolby.mk)
 
 # Sony Framework
 PRODUCT_COPY_FILES += \
